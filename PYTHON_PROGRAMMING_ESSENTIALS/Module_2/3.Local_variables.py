@@ -10,7 +10,8 @@ def fahrenheit_to_celsius(fahrenheit):
     offset = 32
     multiplier = 5 / 9
     celsius = (fahrenheit - offset) * multiplier
-    print("inside function:", fahrenheit, offset, multiplier, celsius)
+    print(f"inside function:", f"{fahrenheit:.2f}", offset, f"{multiplier:.2f}", celsius)
+    #truncating the float values to 2 decimal places for better readability
     return celsius
 
 temperature = 95
