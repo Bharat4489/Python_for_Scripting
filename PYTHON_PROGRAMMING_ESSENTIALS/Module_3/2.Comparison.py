@@ -31,5 +31,6 @@ print("=================")
 name = 'Scott'
 
 # Beware of = and == confusion!
+# This is an assignment, not a comparison
 equal = name != "Joe"
 print(equal)
