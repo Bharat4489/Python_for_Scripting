@@ -7,7 +7,7 @@ def greet(friend, money):
     Greet people.  Say hi if they are your friend and give them
     $20 if you have enough money.
     """
-    if friend == "bharat":
+    if friend:
         print("Hi!")
     else:
         print("Hello! not a friend!")
@@ -17,9 +17,9 @@ def greet(friend, money):
     return money
 
 
-money = 25
+money = 24
 
-money = greet("bharat", money)
+money = greet(False, money)
 print("Money:", money)
 print()
 
@@ -27,4 +27,6 @@ money = greet(True, money)
 print("Money:", money)
 print()
 
-
+money = greet(True, money)
+print("Money:", money)
+print()
