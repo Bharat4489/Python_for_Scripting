@@ -37,7 +37,7 @@ def count_odd_items(numlist):
             count += 1
     return count
 
-numbers = list(range(5, 82, 3))
+numbers = list(range(5, 83, 3))
 strings = ["python", "is", "fun", "!"]
 
 print("Iterate over lists and print items")
