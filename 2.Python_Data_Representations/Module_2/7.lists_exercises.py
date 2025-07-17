@@ -75,3 +75,11 @@ print("list1:", list1)
 print("list2:", list2)
 print("list3:", list3)
 
+def strange_sum(numlist):
+    sum = 0
+    for i in range(len(numlist)):
+        if numlist[i]%3!=0:
+            sum+=numlist[i]
+    return sum
+print(strange_sum([1, 2, 3, 4, 5, 1, 2, 3, 4, 5]))
+print(strange_sum(list(range(123)) + list(range(77))))
