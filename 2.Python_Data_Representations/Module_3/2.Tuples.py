@@ -1,4 +1,5 @@
 """
+TUPLES are IMMUTABLE sequences in Python.
 Tuple examples.
 """
 
