@@ -50,3 +50,16 @@ lst7 = [1, 2, 3]
 print(lst7)
 mutate_list(lst7)
 print(lst7)
+
+#fibonacci Sequence Example
+print("")
+print("Fibonacci Sequence")
+print("==================")
+fib = [0,1]
+def sum(num):
+    while len(fib) < num+2:
+        fib.append(fib[-1] + fib[-2])
+    return fib
+
+sum(20)
+print(fib)
